@@ -1,0 +1,18 @@
+{
+    "name": "angel/prueba-tecnica-php-angel",
+    "autoload": {
+        "psr-4": {
+            "Angel\\PruebaTecnicaPhpAngel\\": "src/",
+            "Angel\\PruebaTecnicaPhpAngel\\Domain\\": "src/Domain"
+        }
+    },
+    "authors": [
+        {
+            "name": "Angel Omar Saavedra",
+            "email": "angel.saavedra@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
